@@ -1,0 +1,503 @@
+what are the erors of these html, css, and javascript codes?
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" href="faqStyles.css"/>
+</head>
+
+
+<div class="nav">
+    <div class="nav-logo">
+        <img  src="C:\Users\User\Desktop\website\FAQ\Logo.png" alt="Perfect Fitness logo" style="width:145px;height:145px;">
+    </div>
+    
+    <div class="nav-items">
+        <button class="Home-Button" id="HomeButton" >Home</button>
+        <button class="FC-Button" id="FC-Button" >Free courses</button>
+        <button class="Programs-Button" id="Programs-Button" >Programs</button>
+        <button class="About-Button" id="About-Button" >About</button>
+        <button class="CU-Button" id="CU-Button" >Contact Us</button>
+        <button class="FAQ-Button" id="FAQ-Button" >FAQ</button>
+        <button class="BR-Button" id="BR-Button" >Blog/Resources</button>
+        <button class="APP-Button" id="APP-Button" >Appointments</button>
+        <button class="Login-Button" id="Login-Button" >LOGIN</button>
+    </div>
+</div>
+
+
+
+
+<body>
+    <br><br><br><br><br>
+    <section>
+        <h2 class="title">FAQs</h2>
+
+        <div class="faq">
+            <!--Question 01-->
+            <div class="question">
+                <h3>What is a package, how do I manage it? </h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p>Sessions never expire - you may book sessions now or later, go on vacation or business trips - your balance will remain unchanged.<br><br>
+                    
+                    Refund is possible on the following conditions:<br>
+                    <ul>
+                        <li><b>8/12 sessions</b> - within 3 months from the date of purchase</li>
+                        <li><b>24 sessions</b> - within 6 months from the date of purchase</li>
+                        <li><b>50 sessions</b> - within a year from the date of purchase</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+
+        <div class="faq">
+            <!--Question 02-->
+            <div class="question">
+                <h3>Can I change/combine trainers? How do I do it?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p>If you'd like to change your current trainer OR mix trainers working with different fitness types, please contact our Customer Service Team. <br>
+                    We will help you choose the best trainer for your needs, advise on the schedule, book a FREE TRIAL and create a chat for you and your new PT.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 03-->
+            <div class="question">
+                <h3>What is a free trial?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p>We offer a free trial session with a PT of your choice. You can decide if you'd like to proceed with regular sessions only after trying out our services. <br>
+                    The same goes for changing your current trainer or searching for an additional trainer.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 04-->
+            <div class="question">
+                <h3>How to contact Customer Service Manager?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p>Our Customer Support Team is always ready to assist with complicated issues / problems / misunderstandings / urgent cases. Please feel free to send us a message by an email.<br>
+                    If you'd like us to contact you, please send a request for a call by an email (and indicate your time preference). <br>
+                    We don't accept incoming calls due to operational load.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 05-->
+            <div class="question">
+                <h3>Devices for training</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p><ul>
+                    <li><b>Laptop</b> - The best option for workouts as it has a large screen (so you can see your trainer better)</li>
+                    <li><b>Smartphone</b> - You can use your smartphone, but be sure to place and fix it well so that you can be clearly seen by your trainer.</li>
+                    <li><b>Headset</b> - It's more convenient to use a headset or earphones</li>
+                    <li><b>Tripod</b> - The best way to fix your phone</li>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 06-->
+            <div class="question">
+                <h3>Space and equipment for training at home</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p><b>Space needed for the online training:</b><br>
+                    There usually should be space of about 7 to 10 feet (2-3 meters) away from your device.
+                    Don't worry if the space is slightly smaller or bigger. The goal is for the trainer to be able to see you from head to toe.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 07-->
+            <div class="question">
+                <h3>Video call session</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <br>
+                <b>Systems we use</b> - Zoom, Skype, WA, Google Meet, Microsoft Teams<br><br>
+                <b>Recording sessions</b> - We use video call recordings. We don't use the recordings for any commercial or advertisement purposes without the customer's permission.<br><br>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <!--Question 08-->
+            <div class="question">
+                <h3>How to cancel/reschedule/stop my sessions?</h3>
+
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke-width="7" stroke-linecap="round"/>
+                </svg> 
+            </div>
+
+            <div class="answer">
+                <p><b>What happens if I can't attend a planned session?</b>
+                    Please inform your PT or the CS Team about it.<br>
+                    Any session can be rescheduled/canceled without any penalty, if you do it 12 hours in advance.<br><br>
+
+                    <b>What if my trainer can't hold a session/is on vacation/cancels?</b><br>
+                    If your trainer needs to reschedule/cancel a session, he/she can suggest any other suitable time to reschedule the session. If your trainer is on vacation, we will find a substitute for him/her, so that you don't miss your regular trainings. If you'd like to wait for your PT to come back, you may freely do so.<br><br>
+
+                    <b>What if I don't like the trainer assigned to me?</b><br>
+                    We will help you find a replacement in no time! Contact our CS Team, they will suggest trainers and help with booking trial session and creating a new chat for you and your new PT.<br><br>
+
+                    <b>I'm running late for my session. What do I do?</b><br>
+                    Please notify your PT. If your PT is available, you can have your session later. If not, we'll need to get the information about the delay 12 hours prior to the scheduled time of your session to reschedule/cancel it without penalty.
+                </p>
+            </div>
+        </div>
+        <br><br><br>
+
+    </section>
+<script src="faqJS.js"></script>
+</body>
+</html>
+
+css
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    background: black;  
+    color: white;
+}
+
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 3rem 0rem;
+}
+
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.Home-Button {
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Home-Button:hover{
+    background-color: red;
+}
+  
+.FC-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.FC-Button:hover{
+    background-color: red;
+}
+    
+.Programs-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Programs-Button:hover{
+    background-color: red;
+}
+
+.About-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.About-Button:hover{
+    background-color: red;
+}
+  
+.CU-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.CU-Button:hover{
+    background-color: red;
+}
+  
+.FAQ-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.FAQ-Button:hover{
+    background-color: red;
+}
+  
+.BR-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.BR-Button:hover{
+    background-color: red;
+}
+    
+.APP-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.APP-Button:hover{
+    background-color: red;
+}
+  
+  
+.Login-Button{
+    background-color:red;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.Login-Button:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+  
+.nav {
+    position: fixed;
+    background-color: #000 !important;
+    width: 100%;
+    top: 0;
+}
+  
+.nav-items, .nav-logo {
+    display: inline-block;
+}
+  
+.nav-items {
+    top: 50px;
+    position: fixed;
+}
+
+
+
+
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3{
+    font-size: 1.8rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+JAVASCRIPT
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active");
+  })
+})

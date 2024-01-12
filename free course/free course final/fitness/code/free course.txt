@@ -1,0 +1,205 @@
+<html>
+<head>
+
+<title>Free Courses</title>
+<style>
+.more-content {display: none;}
+h1{color:red;text-align:center;} 
+h2{color:red; font :poppins;}
+h3{color:red;} 
+p{color:white;}
+body{background-color:black;}
+</style>
+<script>
+	function toggleContent() {
+      var content = document.getElementById("moreContent");
+      var button = document.getElementById("toggleButton");
+	  
+	 
+      
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        button.innerHTML = "See Less";
+      } else {
+        content.style.display = "none";
+        button.innerHTML = "See More";
+      }
+    }
+	function toggleContent1() {
+      var content = document.getElementById("moreContent1");
+      var button = document.getElementById("toggleButton1");
+	  
+	 
+      
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        button.innerHTML = "See Less";
+      } else {
+        content.style.display = "none";
+        button.innerHTML = "See More";
+      }
+    }
+	function toggleContent2() {
+      var content = document.getElementById("moreContent2");
+      var button = document.getElementById("toggleButton2");
+	  
+	 
+      
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        button.innerHTML = "See Less";
+      } else {
+        content.style.display = "none";
+        button.innerHTML = "See More";
+      }
+    }
+	function toggleContent3() {
+      var content = document.getElementById("moreContent3");
+      var button = document.getElementById("toggleButton3");
+	  
+	 
+      
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        button.innerHTML = "See Less";
+      } else {
+        content.style.display = "none";
+        button.innerHTML = "See More";
+      }
+    }
+</script>
+</head>
+<body>
+<br><br><br><br><h1><u>Free Courses</u></h1>
+<table>
+
+	<tr><td><br><br><br><br><h2>Upper Body Strength Training</h2>
+		<img src="C:\Users\JIMUTHA\Desktop\fitness\images\new1.JPEG" style="float:left" width="100" height="100" alt="well built man">
+		<div><p>Upper body strength training focuses on developing the muscles of the upper torso, including the chest, shoulders,
+		back, and arms. By engaging in regular upper body strength training exercises, individuals can enhance their overall 
+		physical performance and functional abilities.</p></div>
+		<div id="moreContent" class="more-content">
+		<p>These workouts typically involve a variety of movements, such as push-ups,
+		pull-ups, bench presses, shoulder presses, and bicep curls, among others. By challenging the muscles through resistance 
+		training, individuals can increase muscle mass, improve bone density, and boost metabolism. Additionally, upper body
+		strength training enhances posture, stability, and promotes injury prevention. Incorporating a well-rounded upper body
+		strength training routine can lead to improved overall fitness and a more confident, empowered physical presence.</p></div>
+		<button id="toggleButton" onclick="toggleContent()">See More</button>
+		
+		<br><br><br><br><a href="https://youtu.be/DHOPWvO3ZcI" style="display: inline-block; padding: 2px 10px; background-color:  rgb(33, 100, 255); color: white; text-decoration: none;">
+		Tutorial</a>
+
+		</td>
+		
+
+		
+		<td><br><br><br><br><h2>Lower Body Strength Training</h2>
+		<img src="C:\Users\JIMUTHA\Desktop\fitness\images\new2.jpg" style="float:left"width="100" height="100" alt="weight lifting man">
+		<div><p>Lower body strength training is a vital component of any well-rounded fitness routine. By focusing on exercises that target
+		the muscles in the legs, hips, and glutes, individuals can build a solid foundation of strength, stability, and power. 
+		Engaging in lower body workouts helps improve overall athletic performance, enhances balance and coordination, and reduces
+		the risk of injury. </p></div>
+		<div id="moreContent1" class="more-content">
+		<p>Exercises like squats, lunges, deadlifts, and calf raises effectively target the major muscle groups in
+		the lower body, promoting muscle growth and increased bone density. Additionally, lower body strength training can also 
+		contribute to improved metabolism and body composition, making it an essential part of achieving fitness goals.</p></div>
+		<button id="toggleButton1" onclick="toggleContent1()">See More</button>
+		
+		<br><br><br><br><a href="https://youtu.be/I9nG-G4B5Bs" style="display: inline-block; padding: 2px 10px; background-color:  rgb(33, 100, 255); color: white; text-decoration: none;">
+		Tutorial</a>
+		</td></tr>
+	
+
+
+<tr><td><br><br><br><br><h2>Power Training</h2>
+		<img src="C:\Users\JIMUTHA\Desktop\fitness\images\new3.JPEG" style="float:left"width="100" height="100" alt="dumble lifting man">
+		<div><p>Power training is a dynamic and intense form of exercise aimed at enhancing explosive strength and speed. It involves a variety of
+		exercises that engage multiple muscle groups simultaneously, such as plyometrics, Olympic lifts, and medicine ball throws.  </p></div>
+		<div id="moreContent2" class="more-content">
+		<p>By
+		focusing on rapid and forceful movements, power training improves the body's ability to generate maximum force in the shortest
+		amount of time.This type of training is highly beneficial for athletes involved in sports that require quick bursts of power,
+		like sprinting, jumping, or throwing. Regular power training not only enhances performance but also promotes better coordination,
+		agility, and overall athletic prowess.</p></div>
+		<button id="toggleButton2" onclick="toggleContent2()">See More</button>
+		
+		<br><br><br><br><a href="https://youtu.be/XxuRSjER3Qk" style="display: inline-block; padding: 2px 10px; background-color:  rgb(33, 100, 255); color: white; text-decoration: none;">
+		Tutorial</a>
+		</td>
+		 
+		<td><br><br><br><br><h2>Durability Training</h2>
+		<img src="C:\Users\JIMUTHA\Desktop\fitness\images\new4.jpg" style="float:left"width="100" height="100" alt="rope exercising man">
+		<div><p>Durability training is a form of physical fitness regimen focused on enhancing the body's resilience and ability to withstand stress.
+		It encompasses various exercises and techniques aimed at improving overall strength, flexibility, and endurance. Through consistent
+		and progressive training, individuals can fortify their muscles, joints, and cardiovascular system, reducing the risk of injuries
+		and enhancing performance in daily activities and sports.</p></div>
+		<div id="moreContent3" class="more-content">
+		<p> Through consistent
+		and progressive training, individuals can fortify their muscles, joints, and cardiovascular system, reducing the risk of injuries
+		and enhancing performance in daily activities and sports.Durability training often involves a combination of resistance training,
+		functional movements, core stabilization exercises, and cardiovascular workouts. By challenging the body in a controlled manner, it 
+		adapts and becomes more durable, enabling individuals to tackle physical challenges with greater ease and maintain long-term
+		health and vitality.</p></div>
+		<button id="toggleButton3" onclick="toggleContent3()">See More</button>
+		
+		<br><br><br><br><a href="https://youtu.be/Vwd0ZFerC-o" style="display: inline-block; padding: 2px 10px; background-color:  rgb(33, 100, 255); color: white; text-decoration: none;">
+		Tutorial</a>
+		</td></tr>
+	
+</table>
+<!-- footer part starts  -->
+<footer>
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a class="links" href="#home">Home</a>
+          <a class="links" href="#freecourses">Free courses</a>
+          <a class="links" href="#programs">Programs</a>
+          <a class="links" href="#contactus">Contact us</a>
+          <a class="links" href="#faq">FAQ</a>
+          <a class="links" href="#blog">Blog</a>
+          <a class="links" href="#appointment">Appointments</a>
+      </div>
+
+      <div class="box">
+          <h3>session times </h3>
+          <p> monday : <i> 3:00pm - 10:30pm </i> </p>
+          <p> tuesday : <i>3:00pm- 10:30pm </i> </p>
+          <p> wednesday : <i> 3:00pm - 10:30pm </i> </p>
+          <p> friday : <i> 3:00pm- 10:30pm </i> </p>
+          <p> saturday : <i> 1:00am - 10:30pm </i> </p>
+          <p> sunday : <i> 1:00am - 10:30pm </i> </p>
+      </div>
+
+      <div class="box">
+        
+          <p> <i class="fas fa-phone"></i> +9471 000 1234 </p>
+          <p> <i class="fas fa-envelope"></i> perfectfitness@gmail.com </p>
+       
+      </div>
+
+      <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+              <input type="email" name="" class="email" placeholder="enter your email" id="">
+              <input type="submit" value="subscribe" class="btn">
+          </form>
+      </div>
+  </div>
+</section>
+</footer>
+<!-- footer part ends -->
+	
+
+	
+
+
+
+
+
+</body>
+</html> 

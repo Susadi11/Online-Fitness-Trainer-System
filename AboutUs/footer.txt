@@ -1,0 +1,46 @@
+<!-- footer part starts -->
+<footer>
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a class="links" href="#home">Home</a>
+          <a class="links" href="#freecourses">Free courses</a>
+          <a class="links" href="#programs">Programs</a>
+          <a class="links" href="#contactus">Contact us</a>
+          <a class="links" href="#faq">FAQ</a>
+          <a class="links" href="#blog">Blog</a>
+          <a class="links" href="#appointment">Appointments</a>
+      </div>
+
+      <div class="box">
+          <h3>session times </h3>
+          <p> monday : <i> 3:00pm - 10:30pm </i> </p>
+          <p> tuesday : <i>3:00pm- 10:30pm </i> </p>
+          <p> wednesday : <i> 3:00pm - 10:30pm </i> </p>
+          <p> friday : <i> 3:00pm- 10:30pm </i> </p>
+          <p> saturday : <i> 1:00am - 10:30pm </i> </p>
+          <p> sunday : <i> 1:00am - 10:30pm </i> </p>
+      </div>
+
+      <div class="box">
+        
+          <p> <i class="fas fa-phone"></i> +9471 000 1234 </p>
+          <p> <i class="fas fa-envelope"></i> perfectfitness@gmail.com </p>
+       
+      </div>
+
+      <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+              <input type="email" name="" class="email" placeholder="enter your email" id="">
+              <input type="submit" value="subscribe" class="btn">
+          </form>
+      </div>
+  </div>
+</section>
+</footer>
+<!-- footer part ends -->

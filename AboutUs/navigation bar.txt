@@ -1,0 +1,30 @@
+<!-- Navigation bar part start-->
+
+<div class="nav">
+
+    <div class="nav-logo">
+        <img src="images\Logo.png" alt="Perfect Fitness logo" style="width:145px;height:145px;">
+    </div>
+
+    <div class="nav-items">
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Free courses</a> </li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Personal Training</a> </li>
+            <li><a href="#">Online Training</a> </li>
+            <li><a href="#">Nutrition Training</a> </li>
+        </ul>
+    
+        <ul>
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Contact Us</a> </li>
+            <li><a href="#">FAQ</a> </li>
+            <li><a href="#">Blog/Resources</a> </li>
+            <li><a href="#">Appointments</a> </li>
+            <li><a href="#">LOGIN</a> </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Navigation bar part end-->

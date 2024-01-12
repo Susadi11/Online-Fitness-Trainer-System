@@ -1,0 +1,359 @@
+body{
+    font-family : Arial, Helvetica, sans-serif;
+    margin : 0;
+    background-color: black;
+}
+
+html{
+    box-sizing: border-box;
+
+}
+
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.Home-Button {
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Home-Button:hover{
+    background-color: red;
+}
+  
+.FC-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.FC-Button:hover{
+    background-color: red;
+}
+    
+.Programs-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Programs-Button:hover{
+    background-color: red;
+}
+
+.About-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.About-Button:hover{
+    background-color: red;
+}
+  
+.CU-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.CU-Button:hover{
+    background-color: red;
+}
+  
+.FAQ-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.FAQ-Button:hover{
+    background-color: red;
+}
+  
+.BR-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.BR-Button:hover{
+    background-color: red;
+}
+    
+.APP-Button{
+    background-color:black;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.APP-Button:hover{
+    background-color: red;
+}
+  
+  
+.Login-Button{
+    background-color:red;
+    border: none;
+    color:  #f9f4f4d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+    
+.Login-Button:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+  
+.nav {
+    position: fixed;
+    background-color: #000 !important;
+    width: 100%;
+    top: 0;
+}
+  
+.nav-items, .nav-logo {
+    display: inline-block;
+}
+  
+.nav-items {
+    top: 50px;
+    position: fixed;
+}
+
+
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.column{
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #282828;
+}
+
+.about-section{
+    padding: 8px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.about-heading{
+    font-size: 275%;
+    font-family:Georgia, serif;
+}
+
+.about-text{
+    font-size: 125%;
+    font-family: Georgia, serif;
+}
+
+.container{
+    padding: 10px 18px;
+}
+
+a.ex1{
+    color: white;
+}
+
+a.ex1:hover, a.ex1:active{
+    color: red
+}
+
+.topic{
+    color: #B8B8B8;
+    font-size: 125%;
+}
+
+.section{
+    color: white;
+}
+
+.txt{
+    color: white;
+}
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title{
+    color: grey;
+}
+
+.button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: medium;
+}
+
+.button:hover{
+    background-color: red;
+}
+
+
+@media screen and (max-width: 1200px){
+    .column{
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.dieticianColumn{
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.left{
+    width:650px;
+    height: 800px;
+    margin-left: 350px;
+
+}
+
+.right{
+    width: 700px;
+    height: 850px;
+}
+
+/*FORM*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: 	#505050;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    border-radius: 5px;
+    background-color: #989898;
+    padding: 50px;   
+    height: 530px;
+  }
+
+
+
+
